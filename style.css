@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Chivo+Mono', sans-serif;
+}
+.container{
+    border: 2px solid black;
+    padding: 12px;
+    width: max-content;
+    background-color: #36454F;
+}
+
+.button{
+    padding: 15px;
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.row{
+    margin: 5px 0px;
+}
+.row-first{
+    margin: 2px 0px;
+    width: 31vw;
+}
+.row input{
+    font-size: 19px;
+    margin: 0;
+    padding: 12px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
